@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background-color: rgb(7, 11, 19);
+}
+a{
+    all: unset;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-top: 6px;
+}
+nav div{
+    height: 40px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.div1{
+    border-right: 2px solid rgb(90, 89, 98);
+    color: rgb(90, 89, 98);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.resume{
+    background-color: rgb(222, 23, 75);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.div1 a{
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.resume:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgba(255, 0, 85, 1);
+}
+.div1 a:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgb(90, 89, 98);
+}
+.container{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.myImg{
+    margin: 20px;
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 50%;
+}
+.myImg:hover{
+    animation: sizeInc 0.1s ease-in-out 0s 1 normal forwards;
+}
+.intro{
+    color: rgb(90, 89, 98);
+    font-weight: bold;
+}
+.container div{
+    width: 300px;
+    text-align: center;
+}
+.big{
+    color: rgb(147, 164, 183);
+    font-weight: 900;
+    font-size:50px;
+}
+.main{
+    color: rgb(90, 89, 98);
+}
+.youtube{
+    background-color: rgb(234, 0, 0);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.youtube:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgb(234, 0, 0);
+}
+.about{
+    height: 500px;
+    width: 100%;
+}
+.about h1{
+    color: white;
+    font-weight: bolder;
+    margin-left: 50px;
+}
+.content{
+   height: 450px;
+   width: 100%;
+   display: flex; 
+}
+.left{
+    height: 100%;
+    width: 60%;
+    color: rgb(90, 89, 98);
+    padding: 20px;
+}
+.right{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: right;
+}
+.photo{
+    height: 300px;
+    margin-right: 50px;
+}
+.youtube2{
+    padding: 2px;
+    font-size: medium;
+}
+.left h1{
+    color: white;
+    margin-left: 20px;
+    font-size: medium;
+    font-weight: bolder;
+}
+.technologies{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.project{
+    height: 500px;
+    width: 100%;
+}
+.project h1{
+    color: white;
+    margin-left: 40px;
+    font-weight: bolder;
+}
+.contentP{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.img1{
+    height: 200px;
+}
+.img1:hover , .img2:hover{
+    animation: sizeInc .2s ease-in-out 0s 1 normal forwards;
+}
+.img2{
+    height: 200px;
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.second{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.first p{
+    color: white;
+    font-size: 10px;
+    padding: 20px;
+}
+.second p{
+    color: white;
+    font-size: 10px;
+    padding: 20px;
+}
+.contact{
+    height: 300px;
+    width: 100%;
+}
+.contact h1{
+    color: white;
+    margin-left: 40px;
+    font-weight: bolder;
+}
+.contentC{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.whatsapp{
+    background-color: rgb(37, 211, 102);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.whatsapp:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgb(37, 211, 102);
+}
+.instagram{
+    background-color: rgb(172, 52, 176);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.instagram:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgb(172, 52, 176);
+}
+.quora{
+    background-color: rgb(186, 44, 40);
+    padding: 5px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: bold;
+    color: white;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+.quora:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 30px rgb(186, 44, 40);
+}
+@media (max-width: 577px){
+    .project h1{
+        margin-top: 50px;
+    }
+    .img1{
+        height: 100px;
+    }
+    .img2{
+        height: 100px;
+    }
+}
+@media (max-width: 509px){
+    .project h1{
+        margin-top: 60px;
+    }
+}
+@media (max-width: 467px){
+    .content{
+        height: 550px;
+     }
+    .intro{
+        margin-top: 40px;
+    }
+    .main{
+        margin-top: 30px;
+    }
+    .big{
+        font-size:40px;
+    }
+    .left{
+        width: 50%;
+        padding: 20px;
+    }
+    .right{
+        width: 50%;
+    }
+    .technologies{
+        width: 250px;
+    }
+    .project h1{
+        margin-top: 80px;
+    }
+}
+@media (max-width: 456px){
+    .project h1{
+        margin-top: 200px;
+    }
+}
+@media (max-width: 385px){
+    .big{
+        font-size:30px;
+    }
+    .div1 {
+        border: none;
+    }
+    .photo{
+        height: 200px;
+        margin-right: 30px;
+    }
+    .left{
+        width: 65%;
+        padding: 20px;
+    }
+    .right{
+        width: 35%;
+    }
+}
+@keyframes sizeInc{
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+}
