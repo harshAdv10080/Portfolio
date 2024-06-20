@@ -249,6 +249,35 @@ nav div{
     transform: scale(1.1);
     box-shadow: 0 0 30px rgb(186, 44, 40);
 }
+@media (min-width: 979px){
+    .intro{
+        margin-top: 30px;
+        font-size: large;
+        font-weight: bolder;
+    }
+    .big{
+        margin-top: 10px;
+        font-size:80px;
+    }
+    .main{
+        font-size: large;
+    }
+    .youtube{
+        padding: 15px;
+        border-radius: 20px;
+        font-size: x-large;
+        font-weight: bolder;
+    }
+    .youtube2{
+        padding: 2px;
+        border-radius: 5px;
+        font-size: medium;
+        font-weight: bold;
+    }
+    .about{
+        margin-top: 100px;
+    }
+}
 @media (max-width: 577px){
     .project h1{
         margin-top: 50px;
