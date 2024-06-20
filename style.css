@@ -275,7 +275,11 @@ nav div{
         font-weight: bold;
     }
     .about{
-        margin-top: 100px;
+        margin-top: 250px;
+    }
+    .myImg{
+        height: 150px;
+        width: 150px;
     }
 }
 @media (max-width: 577px){
